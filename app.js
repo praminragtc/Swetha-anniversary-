@@ -566,4 +566,5 @@ document.addEventListener('DOMContentLoaded', () => {
             triggerConfetti(rect.left + rect.width/2, rect.top + rect.height/2, 20);
         }
     });
-});
+}); 
+ 

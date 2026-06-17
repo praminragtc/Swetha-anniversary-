@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Anniversary, Swetha 💕</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ✦ FLOATING HEARTS CANVAS ✦ -->
+  <canvas id="heartCanvas"></canvas>
+
+  <!-- ✦ HERO SECTION ✦ -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <div class="heart-pulse" id="mainHeart">
+        <svg viewBox="0 0 100 90" xmlns="http://www.w3.org/2000/svg">
+          <path d="M50 85 C50 85 5 55 5 28 C5 13 17 3 30 3 C38 3 45 8 50 15 C55 8 62 3 70 3 C83 3 95 13 95 28 C95 55 50 85 50 85Z"/>
+        </svg>
+      </div>
+      <p class="hero-subtitle">17 June 2025 → 17 June 2026</p>
+      <h1 class="hero-title">Happy Anniversary<br/><span class="hero-name">My Love 💕</span></h1>
+      <p class="hero-tagline">800 km apart, yet you're always in my heart, Swetha ♡</p>
+      <a href="#scrapbook" class="cta-btn">Open Our Memories ↓</a>
+    </div>
+    <div class="scroll-indicator">
+      <span></span><span></span><span></span>
+    </div>
+  </section>
+
+  <!-- ✦ LOVE METER SECTION ✦ -->
+  <section class="love-stats">
+    <div class="stats-grid">
+      <div class="stat-card" data-value="365" data-label="Days Together">
+        <div class="stat-icon">📅</div>
+        <div class="stat-number" id="days">0</div>
+        <div class="stat-label">Days of Love</div>
+      </div>
+      <div class="stat-card" data-value="800" data-label="km Apart">
+        <div class="stat-icon">📍</div>
+        <div class="stat-number" id="km">0</div>
+        <div class="stat-label">km Apart</div>
+      </div>
+      <div class="stat-card" data-value="∞" data-label="Love">
+        <div class="stat-icon">💞</div>
+        <div class="stat-number infinity">∞</div>
+        <div class="stat-label">Love for You</div>
+      </div>
+      <div class="stat-card" data-value="1" data-label="Anniversary">
+        <div class="stat-icon">🎂</div>
+        <div class="stat-number" id="anni">0</div>
+        <div class="stat-label">Beautiful Year</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ✦ SCRAPBOOK SECTION ✦ -->
+  <section class="scrapbook" id="scrapbook">
+    <div class="section-header">
+      <h2 class="section-title">Our Story 📸</h2>
+      <p class="section-subtitle">Every call, every smile, every moment — our most precious memories</p>
+    </div>
+
+    <div class="scrapbook-grid">
+
+      <!-- Photo 1 -->
+      <div class="scrap-card card-1" data-tilt>
+        <div class="tape tape-top-left"></div>
+        <div class="tape tape-top-right"></div>
+        <div class="photo-wrapper">
+          <img src="images/photo1.jpg" alt="Us together — mirror selfie" />
+        </div>
+        <div class="scrap-note">
+          <span class="note-icon">📷</span>
+          <p>"That first meet… the peace sign that said everything" 🤍</p>
+          <span class="note-date">2025</span>
+        </div>
+        <div class="heart-sticker s1">♥</div>
+        <div class="star-sticker s1">★</div>
+      </div>
+
+      <!-- Photo 2 -->
+      <div class="scrap-card card-2" data-tilt>
+        <div class="tape tape-top-center"></div>
+        <div class="photo-wrapper">
+          <img src="images/photo2.jpg" alt="Swetha blowing a kiss on video call" />
+        </div>
+        <div class="scrap-note">
+          <span class="note-icon">💋</span>
+          <p>"800 km away, but your kisses reach me every time 😘"</p>
+          <span class="note-date">Video Call</span>
+        </div>
+        <div class="heart-sticker s2">♥</div>
+        <div class="star-sticker s2">✿</div>
+      </div>
+
+      <!-- Photo 3 -->
+      <div class="scrap-card card-3" data-tilt>
+        <div class="tape tape-top-left"></div>
+        <div class="tape tape-top-right"></div>
+        <div class="photo-wrapper">
+          <img src="images/photo3.jpg" alt="Swetha cozy in blanket" />
+        </div>
+        <div class="scrap-note">
+          <span class="note-icon">🌙</span>
+          <p>"Late night calls wrapped in your warmth — my favourite ✨"</p>
+          <span class="note-date">Late Nights</span>
+        </div>
+        <div class="heart-sticker s3">♥</div>
+        <div class="star-sticker s3">★</div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ✦ LOVE LETTER SECTION ✦ -->
+  <section class="letter-section" id="letter">
+    <div class="letter-envelope" id="envelope">
+      <div class="envelope-flap"></div>
+      <div class="envelope-body">
+        <div class="envelope-icon">💌</div>
+        <p>Click to open my letter for you</p>
+      </div>
+    </div>
+
+    <div class="letter-content" id="letterContent">
+      <div class="letter-paper">
+        <div class="letter-header">
+          <span class="letter-rose">🌹</span>
+          <h3>My Dearest Swetha,</h3>
+          <span class="letter-rose">🌹</span>
+        </div>
+        <div class="letter-body">
+          <p>One full year. 365 days. 8,760 hours of missing you, loving you, and being grateful that you are mine.</p>
+          <br/>
+          <p>800 kilometres feels like nothing when I close my eyes and think of your smile. Every late-night call, every good-morning text, every flying kiss through the screen — I have collected them all like the most precious things in the world.</p>
+          <br/>
+          <p>You make every distance feel shorter, every bad day feel lighter, and every moment feel worth it. I don't know how I got lucky enough to have someone like you, but I am never letting go. 🤍</p>
+          <br/>
+          <p>Happy 1st Anniversary, my love. Here's to forever — and all the kilometres in between.</p>
+          <br/>
+          <p class="letter-sign">With all my love,<br/><strong>Yours Always ♡</strong></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ✦ COUNTDOWN SECTION ✦ -->
+  <section class="countdown-section">
+    <div class="countdown-wrapper">
+      <h2>🎉 Today is Our Day! 🎉</h2>
+      <p class="anniversary-date">17 June 2026</p>
+      <div class="fireworks" id="fireworks"></div>
+      <p class="countdown-msg">A whole beautiful year of loving you, Swetha 💕<br/>And countless more to come...</p>
+    </div>
+  </section>
+
+  <!-- ✦ FOOTER ✦ -->
+  <footer class="footer">
+    <div class="footer-hearts">
+      <span>♥</span><span>♥</span><span>♥</span>
+    </div>
+    <p>Made with love, just for you 💕</p>
+    <p class="footer-sub">Happy 1st Anniversary, Swetha</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
